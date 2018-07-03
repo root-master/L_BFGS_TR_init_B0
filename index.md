@@ -12,5 +12,5 @@ args:
 -m=10             # the L-BFGS memory storage
 -minibatch=1000   # minibatch size
 -use-init-methods # default: False
--B0-method        # method 1, 2, 3
+-B0-method        # method 1, 2, 3 if -use-init-methods
 ```
