@@ -6,7 +6,7 @@ TensorFlow is used to compute the gradients. Numpy and Scipy is used for the mat
 ### Run the Python program
 
 ```shell
-$ python L_BFGS_TR_init_B0.py -m=10 -minibatch=1000 
+$ python L_BFGS_TR_init_B0.py -m=10 -minibatch=1000 -use-init-methods -B0-method=3
 
 args:
 -m=10             # the L-BFGS memory storage
