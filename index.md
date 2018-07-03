@@ -5,8 +5,8 @@ You can choose different method of initialization for L-BFGS matrices in form of
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```bash
-python L_BFGS_TR_init_B0.py -m=10 -minibatch=1000 
+```shell
+$ python L_BFGS_TR_init_B0.py -m=10 -minibatch=1000 
 
 args:
 -m=10             # the L-BFGS memory storage
